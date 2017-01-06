@@ -1,2 +1,3 @@
-# Notes
-My notes
+# My Notes
+- Quantum Mechanics
+- Thermodynamics & Statistical Physics
