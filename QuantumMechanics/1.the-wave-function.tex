@@ -1,0 +1,61 @@
+\chapter{The WAVE FUNCTION}
+
+\section{The \schrodinger{} Equation}
+
+Position$$x(t)$$
+Newton's law$$m\secd{x}{t}=-\fstpd{V}{x}$$
+Particle's wave function$$\Psi(x,t)$$
+\schrodinger{} equation$$i\hbar \secpd{\Psi}{t}=-\frac{\hbar^2}{2m}\secpd{\Psi}{x}+V\Psi$$
+
+\section{The Statistical Interpretation}
+
+Born's statistical interpretation
+\begin{equation*}
+	\int_{a}^{b}\left|\Psi(x,t)\right|\diff x = \left\lbrace\text{ probability of finding the particle between a and b, at time t }\right\rbrace 
+\end{equation*}
+
+The statistical interpretation introduces a kind of indeterminacy into quantum mechanics.
+
+There are three plausible answers to this question, and they serve to characterize the main schools of thought regarding to quantum indeterminacy.
+
+\begin{itemize}
+	\item The realist position
+	\item The orthodox position
+	\item The agnostic position
+\end{itemize}
+
+\section{Probability}
+
+\subsection{Discrete Variables}
+
+\begin{equation*}
+	\langle f(j)\rangle = \frac{\Sigma j N(j)}{N}=\sum_{j=0}^{\infty}f(j)P(j)
+\end{equation*}
+
+\begin{equation*}
+\Delta j = j-\langle j\rangle
+\end{equation*}
+
+\begin{equation*}
+\sigma^2=\langle (\Delta j)^2 \rangle = \langle j^2 \rangle - \langle j \rangle ^2
+\end{equation*}
+
+\subsection{Continuous Variables}
+
+\begin{equation*}
+\rho(x)\diff x = \left\lbrace\text{ probability that an individual (chosen at random) lies between $x$ and $x+\diff x$ }\right\rbrace 
+\end{equation*}
+
+\begin{equation*}
+\langle f(x)\rangle = \int_{-\infty}^{+\infty} f(x)\rho(x)\diff x
+\end{equation*}
+
+\begin{equation*}
+	\sigma^2=\langle (\Delta x)^2 \rangle = \langle x^2 \rangle - \langle x \rangle ^2
+\end{equation*}
+
+\section{Normalization}
+
+\begin{equation*}
+\int_{-\infty}^{+\infty}\left| \Psi(x,t) \right|^2 \diff x = 1
+\end{equation*}

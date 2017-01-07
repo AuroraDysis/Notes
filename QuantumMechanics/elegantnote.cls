@@ -181,9 +181,9 @@
 \setmonofont{Adobe Garamond Pro}%Palatino Linotype
 %-中文字体设置-%
 \RequirePackage{xeCJK}
-\setCJKmainfont[BoldFont={黑体},ItalicFont={楷体}]{华文中宋}%方正书宋_GBK Adobe Song Std L
-\setCJKsansfont[BoldFont={黑体}]{方正中等线简体}
-\setCJKmonofont{方正启体简体}
+\setCJKmainfont[BoldFont={Noto Sans CJK SC},ItalicFont={Noto Sans CJK SC}]{Noto Sans CJK SC}%方正书宋_GBK Adobe Song Std L
+\setCJKsansfont[BoldFont={Noto Sans CJK SC}]{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
 
